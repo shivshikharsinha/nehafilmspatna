@@ -115,10 +115,16 @@
                             <span>Your Message...</span>
                         </div>
                         <div class="inputBox w100">
-                            <input type="submit" value="Send">
-                        </div>
+                            <input type="submit" value="Send" onclick="openPopUp()">
+                        </div>   
                     </div>
                 </form>
+            </div>
+            <div class="pop-up" id="pop-up">
+                <img src="assets\images\404-tick.png" alt="404-tick">
+                <h2>Thank You!</h2>
+                <p>Your Message has been sent Successfully</p>
+                <button type="button" onclick="closePopUp()"> OK </button>
             </div>
         </div>
     </section>
@@ -204,6 +210,15 @@
             }).then(
                 message => alert("Message Sent Successfully. Thank you For Contacting Neha Films.")
             );
+        }
+    </script>
+    <script>
+        let popup = document.getElementById("pop-up");
+        function openPopUp(){
+            popup.classList.add("open-popup");
+        }
+        function closePopUp(){
+            popup.classList.remove("open-popup");
         }
     </script>
 </body>

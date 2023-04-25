@@ -27,12 +27,14 @@ h1{
     line-height: 55px;
     color: #121212;
     font-weight: 600;
+    text-shadow: 0px 3px 10px rgb(0, 0, 0, 0.4);
 }
 h3{
     font-size: 44px;
     line-height: 55px;
     color: #121212;
     font-weight: 600;
+    text-shadow: 0px 5px 16px rgb(0, 0, 0, 0.4);
 }
 h6{
     font-size: 20px;
@@ -48,6 +50,7 @@ h6{
     white-space: nowrap;
     vertical-align: middle;
     border: 2px solid transparent;
+    box-shadow: 0px 6px 20px rgb(0, 0, 0, 0.5);
     padding: 0 32px;
     font-size: 16px;
     line-height: 48px;
@@ -431,10 +434,12 @@ h6{
     align-items: center;
     text-align: center;
 }
+.contact h6{
+    margin-bottom: 3rem;
+}
 .contact .form{
     width: 70%;
-    }
-    
+}
 .contact .form .first-row, .contact .form .first-row{
     display: flex;
     flex-direction: row;
@@ -466,7 +471,10 @@ h6{
     margin: 2rem auto;
     width: 170px;
 }
-.contact .form .contact-btn a{
+
+/* The Link is disabled */
+
+/* .contact .form .contact-btn a{
     background-image: linear-gradient(to right, #457b9d, #e63946);
     color: #fff;
     border: none;
@@ -474,11 +482,28 @@ h6{
     font-weight: normal;
     outline: none;
     border-radius: 5px;
-}
-.contact h6{
-    margin-bottom: 3rem;
+} */
+
+.contact .form button{
+    height: 45px;
+    width: 125px;
+    background-image: linear-gradient(to right, #457b9d, #e63946);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+.contact .form button:hover{
+    background-image: linear-gradient(to left, #457b9d, #e63946);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    font-size: 19px;
+    cursor: pointer;
+    transition: .3s transform linear, .3s height linear .5s;
+}
 /* Footer */
 
 footer{

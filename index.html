@@ -193,16 +193,17 @@
             <h6>For any information, queries, feel free to contact us</h6>
             <div class="form">
                 <div class="first-row">
-                    <input type="text" placeholder="Name" name="name">
-                    <input type="text" placeholder="Email" name="email">
+                    <input id = 'name' type="text" placeholder="Name" name="name">
+                    <input id = 'email' type="text" placeholder="Email" name="email">
                 </div>
                 <div class="first-row">
-                    <input type="text" placeholder="Subject" name="subject">
-                    <input type="text" placeholder="Phone" name="phone">
+                    <input id = 'subject' type="text" placeholder="Subject" name="subject">
+                    <input id = 'phone' type="text" placeholder="Phone" name="phone">
                 </div>
-                <textarea name="Message" placeholder="Message" rows="5"></textarea>
+                <textarea id = 'message' name="Message" placeholder="Message" rows="5"></textarea>
                 <ul class="contact-btn">
-                    <a href="#" class="main-btn">Submit</a>
+                    <!-- <a href="#" class="main-btn">Submit</a> -->
+                    <button id = 'submit-btn' onclick="sendEmail()">Submit</button>
                 </ul>
             </div>
         </section>
@@ -261,7 +262,7 @@
             id="aisensy-wa-widget" widget-id="W0NMHi">
             </script>
         <!-- <hr> -->
-        <p align="center"> © Copyright 2023-2024 - Neha Films Patna | All Rights Reserved</p>
+        <p align = "center"> © Copyright 2023-2024 - Neha Films Patna | All Rights Reserved</p>
         <!-- <hr> -->
 
     </footer>
