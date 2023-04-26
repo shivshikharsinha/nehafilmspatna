@@ -149,7 +149,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(./assets/images/bg_services.jpg) no-repeat;
+    background: url(./assets/images/bg-services-.jpg) no-repeat;
     /* <a href="https://www.freepik.com/free-vector/earth-view-night-from-alien-planet-neon-space_5603526.htm#query=illustration&position=49&from_view=search&track=sph">Image by vectorpouch</a> on Freepik */
     background-size: cover;
     background-position: center;
