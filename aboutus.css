@@ -272,6 +272,17 @@ h1{
 .flexbox-container-3 .flex-heading{
     padding-bottom: 1rem;    
 }
+.featured-in{
+    height: auto;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.featured-in img{
+    border-radius: 20px;
+}
 .counter-wrapper{
     background: url(./assets/images/success.jpg);
     background-repeat: no-repeat;
