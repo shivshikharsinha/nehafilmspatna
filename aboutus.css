@@ -203,7 +203,7 @@ h1{
 }
 .flexbox-item{
     margin: 2rem;
-    border: 3px solid #e9edc9;
+    border: 3px solid #d3d1d6;
     border-radius: 16px;
     padding: 2rem;
     
@@ -221,7 +221,7 @@ h1{
     font-size: 20px;
     padding: 1rem 1rem;
     border-radius: 8px;
-    background-color: #e9edc9;
+    background-color: #d3d1d6;
 }
 .flexbox-item-2{
     min-height: 400px;
@@ -229,7 +229,7 @@ h1{
 }
 .flexbox-item-2 img{
     height: 360px;
-    background-color: #e9edc9;
+    background-color: #d3d1d6;
 
 }
 .flexbox-container-2{
@@ -252,8 +252,8 @@ h1{
     padding-bottom: 2rem;
 }
 .flexbox-item-1 p{
-    line-height: 20px;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 18px;
 }
 .flexbox-item-2{
     max-height: 300px;
