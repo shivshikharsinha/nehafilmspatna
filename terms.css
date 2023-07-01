@@ -213,3 +213,93 @@ h6 {
 .content dd{
     padding-left: 18px;
 }
+/* Responsive Styles */
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+    .nav {
+      padding: 1rem;
+    }
+  }
+  
+  /* Medium devices (up to 768px) */
+  @media (max-width: 768px) {
+    .container {
+      flex-wrap: wrap;
+    }
+    
+    .welcome,
+    .image {
+      flex-basis: 100%;
+    }
+    
+    .content p {
+      padding: 40px 12px;
+    }
+  }
+  
+  /* Large devices (up to 992px) */
+  @media (max-width: 992px) {
+    .nav {
+      padding: 1rem 2rem;
+    }
+  }
+  
+  /* Extra large devices (up to 1200px) */
+  @media (max-width: 1200px) {
+    .nav {
+      padding: 1rem 4rem;
+    }
+  }
+  
+  /* Extra small devices (portrait phones) */
+  @media (max-width: 576px) {
+    .nav .navbar-toggler {
+      display: block;
+    }
+    
+    .nav .menu-bar {
+      display: none;
+    }
+    
+    .nav.scrolled {
+      padding: 1rem;
+    }
+    
+    .nav.scrolled .navbar-toggler .toggler-icon {
+      background-color: #fff;
+    }
+    
+    .nav.scrolled .navbar-social span {
+      display: none;
+    }
+    
+    .nav.scrolled .navbar-social ul li a {
+      font-size: 18px;
+    }
+    
+    .nav.scrolled .navbar-social ul li:first-child {
+      margin-left: 0;
+    }
+  }
+  
+  /* Landscape phones and small tablets */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .nav .menu-bar .menu-items li a {
+      font-size: 16px;
+    }
+  }
+  
+  /* Portrait tablets and medium-sized devices */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .nav .menu-bar .menu-items li a {
+      font-size: 16px;
+    }
+  }
+  
+  /* Landscape tablets and large-sized devices */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .nav .menu-bar .menu-items li a {
+      font-size: 16px;
+    }
+  }
