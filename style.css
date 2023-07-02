@@ -30,7 +30,7 @@ h1{
     text-shadow: 0px 3px 10px rgb(0, 0, 0, 0.4);
 }
 h3{
-    font-size: 44px;
+    font-size: 48px;
     line-height: 55px;
     color: #121212;
     font-weight: 600;
@@ -191,7 +191,7 @@ h6{
 }
 .hero-text .header-btn li a.main-btn i{
     margin-left: 5px;
-    color: #646EE5;
+    color: #257bf4;
 }
 .hero-text .header-btn .btn-one{
     color: #fff;
@@ -203,13 +203,14 @@ h6{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right, #457b9d, #e63946);
+    /* background-image: linear-gradient(to right, #457b9d, #e63946); */
+    background-color: #257bf4;
     z-index: -1;
     transition: all 0.3s ease;
     background-position: right center;
 }
 .hero-text .header-btn .btn-one:hover::before{
-    background-image: linear-gradient(to left, #457b9d, #e63946);
+    background-color: #e63946;
     background-position: left center;
 }
 .hero-text .header-btn .btn-two:hover{
@@ -227,7 +228,7 @@ h6{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
 }
 .service h6{
    margin-bottom: 6rem; 
@@ -270,7 +271,7 @@ h6{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -299,8 +300,6 @@ h6{
     font-weight: 600;
 }
 .team-member{
-    padding: 20px;
-    /* margin: 0 5px; */
     margin-right: 45px;
     width: 29%;
     height: auto;
@@ -309,12 +308,17 @@ h6{
     position: relative;
     display: block;
     overflow: hidden;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     background: #1d3557;
+    border-radius: 5px;
+}
+.team-member.proprietor{
+    margin-left: 25px;
 }
 .team-member img{
     width: 100%;
+    border-radius: 5px;
 }
 .team-member h4{
     margin: 0;
@@ -322,6 +326,7 @@ h6{
     font-size: 25px;
     color: #fff;
 }
+
 .team-member a {
     color:#ffffff
 }
@@ -332,6 +337,7 @@ h6{
 .team-member p{
     color: #fff;
 }
+
 .team-member:before{
     position: absolute;
     content: '';
@@ -604,7 +610,7 @@ footer .second-row .text {
         width: 60%;
     }
     .hero-text h1{
-        font-size: 38px;
+        font-size: 48px;
     }
     #wrapper{
         margin: 3rem 3rem 10rem 3rem;
@@ -627,6 +633,7 @@ footer .second-row .text {
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 10px;
     }
     .service .service-content .service-img{
         width: 90%;
@@ -688,7 +695,7 @@ footer .second-row .text {
         margin: 1rem 1rem 10rem 1rem;
     }
     .service h3{
-       font-size: 33px ;
+       font-size: 38px ;
     }
     .service h6{
        font-size: 16px ;
@@ -755,6 +762,32 @@ p{
         background: #1d3557; */
     }
 }
-@media screen and (max-width: 560px){
+
+ /* Responsive Media Queries */
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1080px) {
+.nav .navbar-social span{
+    display: none;
+}
+.hero-text h6{
+    font-size: 18px;
+}
+.hero-text h3{
+    font-size: 28px;
+}
+.service{
+    padding: 10px;
+}
+.service h6{
+    font-size: 18px;
+    line-height: 28px;
+}
+.service .service-content .box .box-one .services i {
+    font-size: 2rem;
+}
+.service .service-content .box .box-one .services .service-content p{
+    font-size: 14px;
+}
 
 }
