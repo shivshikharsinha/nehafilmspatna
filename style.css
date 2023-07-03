@@ -85,7 +85,9 @@ h6 {
     transition: all 0.5s ease;
     z-index: 100000;
 }
-
+.nav img{
+    scale: 90%;
+}
 .nav.scrolled {
     background-color: #fff;
     transition: background-color 200ms linear;
@@ -753,7 +755,7 @@ footer .second-row .text {
 
 @media only screen and (max-width: 774px) {
     .nav {
-        padding: 0.7rem 1rem;
+        padding: 0.1rem 1rem;
     }
     .nav img{
         scale: 70%;
@@ -771,7 +773,7 @@ footer .second-row .text {
         position: fixed;
         top: 0;
         right: -360px;
-        width: 300px;
+        width: 200px;
         height: 100vh;
         background-color: rgba(256, 256, 256, 0.9);
         transition: all 0.6s ease;
@@ -781,13 +783,13 @@ footer .second-row .text {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
         text-align: justify;
-        padding: 40px 0;
+        padding: 50px 0;
     }
 
     .nav .menu-bar .menu-items li {
-        margin: 2rem 30px;
+        margin: 1rem 20px;
     }
 
     .hero-text {
