@@ -755,6 +755,9 @@ footer .second-row .text {
     .nav {
         padding: 0.7rem 1rem;
     }
+    .nav img{
+        scale: 70%;
+    }
 
     .nav .navbar-toggler {
         display: block;
